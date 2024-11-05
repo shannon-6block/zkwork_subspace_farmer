@@ -26,7 +26,17 @@ The time spend on plotting one sector.
   <tr>
    <td><strong>GPU Version</strong>
    </td>
-   <td><strong>Performance</strong>
+   <td><strong>6block</strong>
+   </td>
+   <td><strong>Official</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>NVIDIA GeForce RTX 3090
+   </td>
+   <td>2.85s
+   </td>
+   <td>9.7s
    </td>
   </tr>
   <tr>
@@ -34,11 +44,7 @@ The time spend on plotting one sector.
    </td>
    <td>3.3s
    </td>
-  </tr>
-    <tr>
-   <td>NVIDIA GeForce RTX 3090
-   </td>
-   <td>2.85s
+   <td>11s
    </td>
   </tr>
 </table>
