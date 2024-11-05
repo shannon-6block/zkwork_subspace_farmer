@@ -19,6 +19,30 @@ A git repository for ZKWork Subspace farmer release versions
 
 - Nvidia Driver Version: 555.42.02 +
 
+## GPU Performance
+The time spend on plotting one sector.
+
+<table>
+  <tr>
+   <td><strong>GPU Version</strong>
+   </td>
+   <td><strong>Performance</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>NVIDIA GeForce RTX 3080
+   </td>
+   <td>3.3s
+   </td>
+  </tr>
+    <tr>
+   <td>NVIDIA GeForce RTX 3090
+   </td>
+   <td>2.85s
+   </td>
+  </tr>
+</table>
+
 ## Start Farming
 
 ### 1. Choose and download the corresponding version on release page
