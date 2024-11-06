@@ -12,7 +12,7 @@ A git repository for ZKWork Subspace farmer release versions
 * Discord Group :  https://discord.com/invite/pKufwyjGFF
 * Twitter : https://x.com/ZKWorkHQ
 
-## We are on taurus testnet with official version `taurus-2024-nov-01`
+## We are on mainnet with official version `mainnet-2024-nov-05`
 
 ## Requirements
 - OS Version: Ubuntu 22.04 +
@@ -54,7 +54,7 @@ The time spent on plotting one sector.
 ### 1. Choose and download the corresponding version on release page
 
 ### 2. Unzip
-    tar zxvf <YOUR DIR>/zkwork_taurus-2024-nov-01.release.tar.gz
+    tar zxvf <YOUR DIR>/zkwork-mainnet-2024-nov-05.tar.gz
 
 ### 3. Start farming
 
@@ -82,4 +82,8 @@ The time spent on plotting one sector.
      ./subspace-farmer cluster --nats-server nats://<NATS_IP>:4222 farmer --reward-address <YOUR_REWARD_ADDRESS> --custom-name <YOUR_NAME> path=<FARMER_DATA_PATH>,size=<SIZE>
 
     4. start Plotter
-     ./subspace-farmer cluster --nats-server nats://<NATS_IP>:4222 plotter
+     ./subspace-farmer cluster --nats-server nats://<NATS_IP>:4222 plotter --cuda-gpus 0,1
+
+#### 3.3 start farmer single machine
+    1. start farmer
+     ./subspace-farmer farm --reward-address <YOUR_REWARD_ADDRESS> --node-rpc-url ws://<NODE_IP>:30003 --custom-name <YOUR_NAME> path=<FARMER_DATA_PATH>,size=<SIZE> --cuda-gpus 0,1
