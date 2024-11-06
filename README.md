@@ -20,7 +20,7 @@ A git repository for ZKWork Subspace farmer release versions
 - Nvidia Driver Version: 555.42.02 +
 
 ## GPU Performance
-The time spend on plotting one sector.
+The time spent on plotting one sector.
 
 <table>
   <tr>
