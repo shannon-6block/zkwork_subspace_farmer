@@ -63,7 +63,7 @@ The time spent on plotting one sector.
      POOL_ADDR_IPV4="ai3.asia.zk.work:10020"
 
     2. start subspace-node
-     ./subspace-node run --base-path <NODE_DATA_PATH> --farmer --rpc-listen-on <LOCAL_IP>:30003 --rpc-cors "all"
+     ./subspace-node run --base-path <NODE_DATA_PATH> --farmer --rpc-listen-on <LOCAL_IP>:30003 --rpc-cors "all" --sync full
 
 #### 3.2 Start subspace farmer cluster
    Notes: farmer cluster and subspace local node need be started within the same intranet.
